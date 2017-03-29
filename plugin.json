@@ -1,0 +1,12 @@
+{
+    "ID":"5c33fc9e-1437-11e7-93ae-92361f002671",
+    "ActionKeyword":"num",
+    "Name":"Bodh",
+    "Description":"Plugin to convert binary/octal/decimal/hexadecimal. 二进制/八进制/十进制/十六进制之间的转换",
+    "Author":"Houxg",
+    "Version":"0.1.0",
+    "Language":"python",
+    "Website":"https://github.com/houxg/Wox-bodh",
+    "IcoPath":"Images\\app.png",
+    "ExecuteFileName":"main.py"
+}
