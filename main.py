@@ -71,8 +71,9 @@ class Bodh(Wox):
         return results
 
     def copyToClipboard(self, value):
-        command = 'echo ' + value.strip() + '| clip'
-        os.system(command)
+        p = subprocess.Popen(['clip.exe'], stdin=subprocess.PIPE)
+        p.stdin.write(value.encode('gbk'))
+        p.stdin.close()
 
 
 if __name__ == "__main__":
